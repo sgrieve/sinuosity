@@ -1,5 +1,7 @@
 ## Sinuosity
 
+[![DOI](https://zenodo.org/badge/265599848.svg)](https://zenodo.org/badge/latestdoi/265599848)
+
 The following code needs `fiona` and `shapely` installed, using either `pip` or `conda`, and expects a shapefile containing a single polyline.
 
 It works by creating two shapely `LineString`s and then using their length attribute to calculate sinuosity.
@@ -30,4 +32,4 @@ This code is MIT Licensed, see `LICENCE.txt` for details.
 
 ### Citing
 
-If you would like to cite this script, you can grab the bibtex file [here]().
+If you would like to cite this script, you can grab the bibtex file [here](https://doi2bib.org/bib/10.5281/zenodo.3835970).

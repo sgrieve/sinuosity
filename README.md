@@ -4,7 +4,7 @@ The following code needs `fiona` and `shapely` installed, using either `pip` or 
 
 It works by creating two shapely `LineString`s and then using their length attribute to calculate sinuosity.
 
-If you are using a geograpic coordinate system, you will need to calculate great circle distances. To do this I usually use `pyproj`'s `geod.inv` method.
+If you are using a geographic coordinate system, you will need to calculate great circle distances. To do this I usually use `pyproj`'s `geod.inv` method.
 
 ### Usage
 
